@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <iostream>
 #include <vector>
-void GetAcpiTable(const char* sig) {
+void rettable(const char* sig) {
  UINT table_size = GetSystemFirmwareTable('ACPI', *(reinterpret_cast<const UINT*>(sig)), NULL, 0);
  if (table_size == 0) { // this should never happen
   return;
@@ -21,5 +21,5 @@ void GetAcpiTable(const char* sig) {
  }
 }
 int main(int argc, char** argv) {
- GetAcpiTable("DSDT");
+ rettable("DSDT");
 }
