@@ -5,3 +5,4 @@ Simple program which retrieves data from the ACPI Table structure, it just so ha
 NtQuerySystemInformation
 EnumSystemFirmwareTables/GetSystemFirmwareTable
 ```
+credit to nick ever docks for  his amazing article (but he got me banned from secret.club so i hate him)
